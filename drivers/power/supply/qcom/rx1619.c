@@ -4420,7 +4420,7 @@ static int __init rx1619_init(void)
 
 #ifndef CONFIG_RX_ON_URD
 	printk("is_nvt_rx flag is:%d\n", is_nvt_rx);
-	if (!is_nvt_rx && (hw_version != HARDWARE_PLATFORM_SKULD))
+	if (!is_nvt_rx)
 		return 0;
 #endif
 
