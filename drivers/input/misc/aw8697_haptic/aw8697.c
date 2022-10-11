@@ -46,8 +46,8 @@
  * Marco
  *
  ******************************************************/
-#define AW8697_I2C_NAME "aw8697_haptic"
-#define AW8697_HAPTIC_NAME "aw8697_haptic"
+#define AW8697_I2C_NAME "qcom-hv-haptics"
+#define AW8697_HAPTIC_NAME "qcom-hv-haptics"
 
 #define AW8697_VERSION "v1.1.3"
 
